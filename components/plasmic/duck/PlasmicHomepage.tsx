@@ -214,7 +214,9 @@ function PlasmicHomepage__RenderFunc(props: {
                   sty.text__oiqki
                 )}
               >
-                {"CA : "}
+                {hasVariant(globalVariants, "screen", "mobileOnly")
+                  ? "CA :   nwN5UCaxrHEgz6SnagARexjb\nErxVv7QbFtpW9JjXEEn"
+                  : "CA :   nwN5UCaxrHEgz6SnagARexjbErxVv7QbFtpW9JjXEEn"}
               </div>
             </div>
           </section>
